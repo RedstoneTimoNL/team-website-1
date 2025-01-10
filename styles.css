@@ -1,0 +1,367 @@
+*{
+  scroll-behavior: smooth;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+header{
+  background: #C4F39A;
+  font-family: 'Inter', sans-serif;
+}
+
+.header-logo{
+  width:150px;
+  padding:15px;
+}
+
+.header-container{
+  width:80%;
+  margin:0 auto;
+}
+
+.smallcontainer{
+ width:50%;
+ margin:0 auto;
+}
+
+.header-flex{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+nav{
+  display:flex;
+  gap:40px;
+  text-transform:uppercase
+}
+
+nav a{
+  text-decoration:none;
+  color:white;
+  font-weight:bold;
+  line-height:150px;
+}
+
+.navbar{
+  color:black;
+  font-family:inter, sans-serif;
+  font-size:30px;
+}
+
+.Title{
+    position: center;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+padding: 10px;
+}
+
+.footer-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer{
+    background-color: #C4F39A;
+    /* border-top: 20px solid rgb(255, 255, 255); */
+}
+
+.footer-name{
+  display:flex;
+  justify-content: right;
+  font-weight: 600;
+  font-family: sans-serif;
+  /* padding: 20px; */
+}
+
+.titel-logo-footer{
+  padding: 0px 30px 5px 5px;
+}
+
+
+
+.logo-footer{
+  display: block;
+  white-space: nowrap;
+  display:flex;
+  justify-content: center;
+  
+}
+
+.footer-info{
+  line-height: 0;
+}
+
+.text-footer{
+  padding: 5px 0px 5px 30px;
+}
+
+
+span{
+  font-weight: bold;
+}
+
+.blue-text{
+  color: rgb(9, 140, 255);
+  
+}
+
+
+.link-footer{
+  
+  color: rgb(9, 140, 255);
+  
+}
+
+
+
+
+.container-text{
+    max-width: 200px;
+}
+
+body{
+  background:#FFFFE4;
+}
+
+.HeadPart {
+    border-top: 3px solid rgb(0, 0, 0);
+    display: inline-block;
+}
+
+hr {
+    height: 10px;
+    background-color: #FFFFE4;
+    border: #C4F39A;
+}
+
+.flex {
+  display: flex;  /*iedere child element komt naast elkaar te staan*/
+  gap: 30px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.picture {
+  display: flex;
+  background-image: url('gebouw.png');
+  background-size: cover;
+  width: 80%;
+  height: 40em;
+  background-repeat: no-repeat;
+  flex-direction: row;
+  object-fit: contain;
+}
+
+.picture2 {
+  display: flex;
+  background-image: url('grotekamer.png');
+  background-size: cover;
+  width: 80%;
+  height: 40em;
+  background-repeat: no-repeat;
+  flex-direction: row;
+  object-fit: contain;
+}
+
+.picture3 {
+  display: flex;
+  background-image: url('kleinekamer.png');
+  background-size: cover;
+  width: 80%;
+  height: 40em;
+  background-repeat: no-repeat;
+  flex-direction: row;
+  object-fit: contain;
+}
+
+.picture4 {
+  display: flex;
+  background-image: url('eetkamer.png');
+  background-size: cover;
+  width: 80%;
+  height: 40em;
+  background-repeat: no-repeat;
+  flex-direction: row;
+  object-fit: contain;
+}
+
+.picture h2 {
+  padding-bottom: 300px;
+  width: 50%;
+  object-fit: contain;
+}
+
+.TextBoxTitles {
+  font-size: 120%;
+}
+
+.textbox {
+  background: #C4F39A;
+  border-radius: 30px;
+  width: 40%;
+  padding: 20px;
+  font-size: 1em;
+  margin-bottom: 4%;
+}
+
+.textbox2 {
+  background: #C4F39A;
+  border-radius: 30px;
+  width: 40%;
+  padding: 20px;
+  font-size: 2.5vw;
+  padding-bottom: 3%;
+  margin-bottom: 4%;
+  margin-left: auto;
+}
+
+.form{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FFFFE4;
+  margin:0;
+  padding:0;
+}
+
+fieldset{
+  border: none;
+}
+
+.flex-form{
+  display:flex; 
+}
+
+.inschrijven{
+  width:160px;
+  height:60px;
+  font-size:1em;
+  border-radius:50px;
+  background-color:lime;
+  cursor: pointer;
+}
+
+.inschrijven:hover{
+  cursor: pointer;
+}
+
+input{
+  width:400px;
+  height:50px;
+  font-size:20px;
+}
+
+textarea{
+  width: 400px;
+  height: 50px;
+}
+
+.flex-gadgets{
+  display:flex;
+  justify-content: center;
+  //* padding-left: 80px; */
+}
+
+@media (max-width: 600px) {
+  .flex {
+    flex-direction: column;
+  }
+  .website  {
+    margin: 0 auto;
+  }
+
+  .header-flex{
+    display:flex;
+    justify-content:space-between;
+    align-items:left;
+  }
+
+  /* .header-container {
+    flex-direction: column;
+  } */
+
+  nav{
+    display:flex;
+    gap:10px;
+    text-transform:uppercase
+  }
+
+  .navbar{
+    font-size: 80%;
+    margin-left: 1em;
+  }
+
+  .header-container{
+    width:100%;
+    margin:0 auto;
+  }
+
+  .header-logo{
+    width:50px;
+    padding-right:5;
+  }
+
+  .footer-section {
+    flex-direction: column;
+  }
+
+  input{
+    width:200px;
+    height:25px
+  }
+
+  textarea{
+    width: 200px;
+    height: 25px;
+  }
+
+  .inschrijven{
+    width:80px;
+    height:30px;
+    font-size: 0.8em;
+  }
+
+  .textbox {
+    width: 60%;
+  }
+
+  .flex-gadgets {
+    justify-content: left;
+  }
+
+  .TopPart {
+    margin-left: 3%;
+  }
+
+  .picture {
+    width: 100%;
+    height: 20em;
+  }
+
+  .picture2 {
+    width: 100%;
+    height: 20em;
+  }
+
+  .picture3 {
+    width: 100%;
+    height: 20em;
+  }
+
+  .picture4 {
+    width: 100%;
+    height: 20em;
+  }
+
+}
